@@ -1,5 +1,5 @@
 import numpy as np
-from ..utils.constants import TERRAIN_COLORS
+from utils.constants import TERRAIN_COLORS
 
 
 def changeterrain_type(map_data, row, col, new_type):
