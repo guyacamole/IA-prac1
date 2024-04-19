@@ -1,0 +1,2 @@
+human
+down,right,right,right,down,down

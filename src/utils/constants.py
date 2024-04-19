@@ -17,6 +17,49 @@ MARK_SYMBOLS = {
     5: 'XX'  # goal
 }
 
+MOVEMENTS_COST = {
+    1: {
+        'name': 'human',
+        0: 0,  # Mountain
+        1: 1,  # Land
+        2: 2,  # Water
+        3: 3,  # Sand
+        4: 4,  # Forest
+        5: 5,  # Swamp
+        6: 5  # Snow
+    },
+    2: {
+        'name': 'monkey',
+        0: 0,  # Mountain
+        1: 2,  # Land
+        2: 4,  # Water
+        3: 3,  # Sand
+        4: 1,  # Forest
+        5: 0,  # Swamp
+        6: 0  # Snow
+    },
+    3: {
+        'name': 'octopus',
+        0: 0,  # Mountain
+        1: 2,  # Land
+        2: 1,  # Water
+        3: 0,  # Sand
+        4: 3,  # Forest
+        5: 2,  # Swamp
+        6: 0  # Snow
+    },
+    4: {
+        'name': 'sasquatch',
+        0: 15,  # Mountain
+        1: 4,  # Land
+        2: 0,  # Water
+        3: 0,  # Sand
+        4: 4,  # Forest
+        5: 0,  # Swamp
+        6: 0  # Snow
+    }
+}
+
 AGENTS_MOVEMENTS_COST = {
     ('human', 0): 0,  # Human agent cost to traverse mountain terrain
     ('human', 1): 1,  # Human agent cost to traverse land terrain
