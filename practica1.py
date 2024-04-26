@@ -120,7 +120,7 @@ def display_map(map_array):
             else:
                 # otherwise, color it according to the terrain agent_type
                 display_array[i, j] = patches.Rectangle(
-                    (j, i), 1, 1, linewidth=1, edgecolor='black', facecolor=terrain_colors[terrain_type])
+                    (j, i), 1, 1, linewidth=1, edgecolor='black', facecolor=git@github.com:guyacamole/IA-prac1.gitterrain_colors[terrain_type])
 
                 if mark_value != 0:
                     # add a mark symbol if there is a mark value
